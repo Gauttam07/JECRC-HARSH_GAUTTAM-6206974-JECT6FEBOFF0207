@@ -1,0 +1,76 @@
+Object Oriented Programming
+**It is a type of programming in which we will use only class & objects
+Advantages:-
+1.Code Reusabliity
+2.multi-tasking behaviour
+3.data security
+4.data hiding
+5.to make the code organized
+6.beeter resuability
+
+**For developing real world application or solveing real time problem , we prefer to use oops.
+
+If a fuction is made inside the class is called method but remember function and method are same
+
+class:
+It is a vlueprint of an object in which all the properties & functionalities will be stored.
+
+object or instance:
+The outcome of a class or the instance of a class.
+
+note:total 35 keywordsss
+
+**To create a class, we have to use one keyword called "class".
+
+Syntax:
+    class ClassName:
+       properties/
+       functionalities(methods)
+
+    
+    obj_name=ClassName(args)
+
+
+Properties/states/Members:
+   Properties or,states or,members are nothing but variable which we can create inside a clasdd or inside of an object
+**Exactly two types of properties we have in case of python:
+   1.Class Properties
+   2.Object Properties
+
+**Whtaever variables we will create inside a class, will be known as the properties of a class.For each and  every objects, the class menbers wil be same.
+
+**Whtaever variables we will create inside an Object, will be known as the properties of an object.For each and  every objects, the object menbers wil be different.
+
+Constructor:
+1. In python, __init__ is known as constructor
+2. It is used to initialize the state/properties of an object
+3. We don't have to call the init method explicitly, During object creating, it will automatically get invoked
+4. In case of __init__, please make sure that the first argument should be "self".
+5. "self" will refer the current execution context (Currently created object's address).
+6. If we want, we can use any other variable name in place of "self". But according to the industrial standard rules, we should use "self"
+
+
+
+
+Methods:
+1.Object Method,
+2.Class Method
+3.Static Method
+
+   Object Method:
+     It is used to access & modify the properties of an object.
+         class ClassName:
+            def method_name(self,args):
+               Statements
+               Blocks
+            
+    Class Method:
+      1.It is used to access & modify the properties of a class
+      2."@classmethod" decorator is required to create one class method.
+
+      class ClassName:
+          @classmethod
+          def method_name(cls,args):
+              Statement
+              Blocks
+
